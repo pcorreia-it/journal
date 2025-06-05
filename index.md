@@ -47,7 +47,7 @@ title: Journal
 </div>
 
 <div class="intro">
-  Paulo <span id="typed"></span>
+  Paulo &nbsp; <span id="typed"></span>
 </div>
 
 <div class="links">

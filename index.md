@@ -38,7 +38,7 @@ title: Paulo Correia's Journal
   </style>
 
 <div class="social-links">
-  <a href="https://www.instagram.com/pcorreia.it" target="_blank" rel="noopener" aria-label="Instagram">
+  <a href="https://www.instagram.com/opaulohcorreia" target="_blank" rel="noopener" aria-label="Instagram">
     <i class="fab fa-instagram"></i>
   </a>
   <a href="https://github.com/pcorreia-it" target="_blank" rel="noopener" aria-label="GitHub">
@@ -60,7 +60,7 @@ title: Paulo Correia's Journal
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  const words = ["é pai.", "é engenheiro.", "é marido.", "é brasileiro.", "é italiano.", "é músico."]; 
+  const words = [" é pai.", " é engenheiro.", " é marido.", " é brasileiro.", " é italiano.", " é músico.", " é pensador."]; 
   let wordIndex = 0;
   let charIndex = 0;
   const typed = document.getElementById("typed");

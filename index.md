@@ -60,7 +60,7 @@ title: Journal
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  const words = [" é pai.", " é engenheiro.", " é marido.", " é brasileiro.", " é italiano.", " é músico.", " é pensador."]; 
+  const words = ["é pai.", "é engenheiro.", "é marido.", "é brasileiro.", "é italiano.", "é músico.", "é pensador."]; 
   let wordIndex = 0;
   let charIndex = 0;
   const typed = document.getElementById("typed");

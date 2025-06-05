@@ -1,9 +1,7 @@
 ---
-title: "DE-TUDO-UM-POUCO"
+title: "DE TUDO UM POUCO"
 date: 2025-06-05
 ---
-
-# De tudo um pouco
 
 Um blog pessoal demonstra um ponto de vista de mundo. Nesse canto, vou mostrar a perspectiva de um inquieto. Muitas ideias, muitas atividades e ainda poucas palavras. Para ser mais preciso, poucas palavras escritas. 
 

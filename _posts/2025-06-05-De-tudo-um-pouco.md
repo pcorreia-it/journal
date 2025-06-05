@@ -1,5 +1,5 @@
 ---
-title: "DE TUDO UM POUCO"
+title: "De tudo um pouco"
 date: 2025-06-05
 ---
 

@@ -4,26 +4,48 @@ title: Paulo Correia's Journal
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 <style>
   .social-links {
     position: fixed;
-    top: 10px;
-    right: 10px;
+    top: 15px;
+    right: 70px;
   }
   .social-links a {
     margin-left: 10px;
     font-size: 1.5rem;
     color: inherit;
   }
+
+  body {
+    font-family: 'Special Elite', monospace;
+  }
+
   .intro {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    height: 60vh;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .links {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .links a {
+    margin: 0 0.5rem;
+  }
+  </style>
+
     height: 80vh;
     font-size: 2rem;
     font-weight: bold;
   }
 </style>
+
 
 <div class="social-links">
   <a href="https://www.instagram.com/pcorreia.it" target="_blank" rel="noopener" aria-label="Instagram">
@@ -36,6 +58,14 @@ title: Paulo Correia's Journal
 
 <div class="intro">
   Paulo <span id="typed"></span>
+</div>
+
+<div class="links">
+  <a href="#projetos">#projetos</a>
+  <a href="#pessoas">#pessoas</a>
+  <a href="#lugares">#lugares</a>
+  <a href="#eventos">#eventos</a>
+  <a href="#ideias">#ideias</a>
 </div>
 
 <script>

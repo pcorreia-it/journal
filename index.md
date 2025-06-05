@@ -46,10 +46,12 @@ title: Journal
   </a>
 </div>
 
+<!-- 
 <div class="intro">
   Paulo &nbsp; <span id="typed"></span>
 </div>
-
+-->
+ 
 <div class="links">
   <a href="#projetos">#projetos</a>
   <a href="#pessoas">#pessoas</a>
@@ -60,7 +62,8 @@ title: Journal
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  const words = ["é pai.", "é engenheiro.", "é marido.", "é brasileiro.", "é italiano.", "é músico.", "é pensador."]; 
+  const prefix = "Paulo ";
+  const words = ["é pai.", "é engenheiro.", "é marido.", "é brasileiro.", "é italiano.", "é músico.", "é pensador."];
   let wordIndex = 0;
   let charIndex = 0;
   const typed = document.getElementById("typed");
@@ -68,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function type() {
     const word = words[wordIndex];
     if (charIndex <= word.length) {
-      typed.textContent = word.slice(0, charIndex);
+      typed.textContent = prefix + word.slice(0, charIndex);
       charIndex++;
       setTimeout(type, 150);
     } else {
@@ -79,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function erase() {
     const word = words[wordIndex];
     if (charIndex >= 0) {
-      typed.textContent = word.slice(0, charIndex);
+      typed.textContent = prefix + word.slice(0, charIndex);
       charIndex--;
       setTimeout(erase, 100);
     } else {

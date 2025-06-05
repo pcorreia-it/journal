@@ -84,6 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
       setTimeout(erase, 100);
     } else {
       wordIndex = (wordIndex + 1) % words.length;
+      charIndex = 0;
       setTimeout(type, 500);
     }
   }

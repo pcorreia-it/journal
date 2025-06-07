@@ -79,23 +79,23 @@ title: Journal
             <div class="max-w-3xl mx-auto">
                 <section id="projetos" class="mb-12">
                     <h2 class="text-3xl font-bold border-b-2 border-gray-200 pb-2 mb-4">Projetos</h2>
-                    <p class="text-gray-700">Aqui você encontrará uma lista dos meus projetos... (Conteúdo de exemplo)</p>
+                    <p class="text-gray-700">Projetos que marcaram minha trajetória. (Conteúdo de exemplo)</p>
                 </section>
                 <section id="pessoas" class="mb-12">
                     <h2 class="text-3xl font-bold border-b-2 border-gray-200 pb-2 mb-4">Pessoas</h2>
-                    <p class="text-gray-700">Pessoas que me inspiram e com quem colaborei... (Conteúdo de exemplo)</p>
+                    <p class="text-gray-700">Pessoas que me inspiram e com quem colaborei.</p>
                 </section>
                 <section id="lugares" class="mb-12">
                     <h2 class="text-3xl font-bold border-b-2 border-gray-200 pb-2 mb-4">Lugares</h2>
-                    <p class="text-gray-700">Lugares que visitei e que marcaram minha jornada... (Conteúdo de exemplo)</p>
+                    <p class="text-gray-700">Lugares que visitei e que marcaram minha jornada.</p>
                 </section>
                  <section id="eventos" class="mb-12">
                     <h2 class="text-3xl font-bold border-b-2 border-gray-200 pb-2 mb-4">Eventos</h2>
-                    <p class="text-gray-700">Eventos importantes e conferências que participei... (Conteúdo de exemplo)</p>
+                    <p class="text-gray-700">Eventos importantes e conferências que participei.</p>
                 </section>
                  <section id="ideias" class="mb-12">
                     <h2 class="text-3xl font-bold border-b-2 border-gray-200 pb-2 mb-4">Ideias</h2>
-                    <p class="text-gray-700">Um repositório de pensamentos e ideias aleatórias... (Conteúdo de exemplo)</p>
+                    <p class="text-gray-700">Um repositório de pensamentos e ideias aleatórias.</p>
                 </section>
             </div>
         </main>

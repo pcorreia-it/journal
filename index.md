@@ -46,11 +46,9 @@ title: Journal
   </a>
 </div>
 
-<!-- 
 <div class="intro">
-  Paulo &nbsp; <span id="typed"></span>
+  <span id="typed"></span>
 </div>
--->
  
 <div class="links">
   <a href="#projetos">#projetos</a>

@@ -5,7 +5,7 @@ title: Journal
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Journal | Paulo Correia</title>
-
+    
     <!-- Tailwind CSS for modern, responsive styling -->
     <script src="https://cdn.tailwindcss.com"></script>
     
@@ -39,6 +39,31 @@ title: Journal
         /* Add a transition for the fade-in effect */
         #typed-container {
             transition: opacity 0.4s ease-in-out;
+        }
+        /* Custom class for the typewriter-style lines */
+        .typewriter-heading {
+            position: relative;
+            padding-top: 2rem; /* Creates space for the top line */
+            padding-bottom: 2rem; /* Creates space for the bottom line */
+        }
+        .typewriter-heading::before,
+        .typewriter-heading::after {
+            content: '----------------------------------------------------------------------------------------------------';
+            position: absolute;
+            left: 0;
+            width: 100%;
+            color: currentColor; /* Inherits the heading's text color */
+            opacity: 0.6; /* Makes the dashes slightly less prominent */
+            white-space: nowrap;
+            overflow: hidden;
+            font-weight: normal; /* Ensures dashes are not bold */
+        }
+        .typewriter-heading::before {
+            top: 0;
+        }
+        .typewriter-heading::after {
+            bottom: 0;
+            color: black;
         }
     </style>
 </head>
@@ -78,24 +103,24 @@ title: Journal
             <!-- Content Sections for Anchor Links -->
             <div class="max-w-3xl mx-auto">
                 <section id="projetos" class="mb-12">
-                    <h2 class="text-3xl font-bold border-b-2 border-gray-200 pb-2 mb-4">Projetos</h2>
-                    <p class="text-gray-700">Projetos que marcaram minha trajetória. (Conteúdo de exemplo)</p>
+                    <h2 class="text-3xl font-bold mb-4 typewriter-heading">Projetos</h2>
+                    <p class="text-gray-700">Projetos que marcaram minha trajetória.</p>
                 </section>
                 <section id="pessoas" class="mb-12">
-                    <h2 class="text-3xl font-bold border-b-2 border-gray-200 pb-2 mb-4">Pessoas</h2>
-                    <p class="text-gray-700">Pessoas que me inspiram e com quem colaborei.</p>
+                    <h2 class="text-3xl font-bold mb-4 typewriter-heading">Pessoas</h2>
+                    <p class="text-gray-700">Pessoas que me inspiram.</p>
                 </section>
                 <section id="lugares" class="mb-12">
-                    <h2 class="text-3xl font-bold border-b-2 border-gray-200 pb-2 mb-4">Lugares</h2>
-                    <p class="text-gray-700">Lugares que visitei e que marcaram minha jornada.</p>
+                    <h2 class="text-3xl font-bold mb-4 typewriter-heading">Lugares</h2>
+                    <p class="text-gray-700">Lugares que visitei.</p>
                 </section>
                  <section id="eventos" class="mb-12">
-                    <h2 class="text-3xl font-bold border-b-2 border-gray-200 pb-2 mb-4">Eventos</h2>
-                    <p class="text-gray-700">Eventos importantes e conferências que participei.</p>
+                    <h2 class="text-3xl font-bold mb-4 typewriter-heading">Eventos</h2>
+                    <p class="text-gray-700">Eventos que marcaram minha trajetória.</p>
                 </section>
                  <section id="ideias" class="mb-12">
-                    <h2 class="text-3xl font-bold border-b-2 border-gray-200 pb-2 mb-4">Ideias</h2>
-                    <p class="text-gray-700">Um repositório de pensamentos e ideias aleatórias.</p>
+                    <h2 class="text-3xl font-bold mb-4 typewriter-heading">Ideias</h2>
+                    <p class="text-gray-700">Um repositório de pensamentos e ideias.</p>
                 </section>
             </div>
         </main>
@@ -166,4 +191,3 @@ title: Journal
         }
     });
     </script>
-

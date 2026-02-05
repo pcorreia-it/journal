@@ -3,7 +3,7 @@ title: "Reflexões iniciais"
 date: 2025-06-05
 ---
 
-Este é um ponto de partida: um espaço onde organizo pensamentos, rastros e perguntas que não me deixam em paz. Por enquanto, escrevo para mim. As primeiras reflexões sobre este novo exercício indicam que se trata de um blog pessoal — um território para expressar um ponto de vista de mundo. Neste canto, revelo a perspectiva de um inquieto curioso, movido por uma avalanche de ideias, uma rotina intensa de atividades e, até aqui, poucas palavras escritas.
+Este é um ponto de partida: um espaço onde organizo pensamentos, rastros e indagações. Escrevo para mim. Ao que tudo indica, trata-se de um blog — um território de expressão, uma perspectiva de mundo. Neste canto, revelo um ponto de vista inquieto e curioso, movido por ideias e ideais, por uma rotina intensa de atividades e, até aqui, por poucas palavras escritas.
 
 Neste blog, publico minhas reflexões e registro minha trajetória. Trata-se de textos cujo único objetivo é compartilhar minha maneira de enxergar o mundo e, com isso, dar forma ao que antes era apenas pensamento disperso.
 

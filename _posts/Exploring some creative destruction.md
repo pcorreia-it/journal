@@ -1,0 +1,1 @@
+A criação passa por um processo de tentativa e de erro, de exposição e feedback. Não é preciso ser a imagem do que você se vê. Os outros te verão diferente e muitas vezes melhor do que você vê a si mesmo.
